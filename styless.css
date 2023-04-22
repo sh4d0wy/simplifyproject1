@@ -1,0 +1,52 @@
+body{
+    background-image: url(back.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+    padding:20px 10px;
+
+}
+.center{
+}
+input{
+    border-radius: 6px;
+    border:none;
+    height:22px;
+    padding:0 10px;
+    opacity:1;
+}
+.container{
+    border: solid white;
+    text-align: center;
+    width:500px;
+    height:250px;
+    font-size:20px ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity:0.8;
+}
+
+.btn{
+    position:relative;
+    left:40%;
+    width: 100px;
+    padding:10px 20px;
+    border-radius: 8px;
+    border:none;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    background-color: #656768;
+    color:white;
+
+}
